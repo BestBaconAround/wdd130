@@ -6,9 +6,11 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-align: center;
 }
 h1 {
     color: darkblue;
+    text-align: center;
 }
 img {
     width: 150px;
@@ -16,7 +18,10 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    display: block;
+    margin: 0 auto;
 }
 p {
     padding: 10px;
+    text-align: center;
 }
