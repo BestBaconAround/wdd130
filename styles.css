@@ -1,6 +1,9 @@
 body {
     background-color: bisque;
 }
+main {
+    max-width: 2000px;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -25,11 +28,20 @@ img {
     margin: 0 auto;
 }
 p {
-    padding: 0px;
+    padding: 0;
     text-align: center;
 }
 aside {
     color: darkblue;
+}
+aside img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    display: block;
+    margin: 0 auto;
 }
 aside h2 {
     text-align: center;
