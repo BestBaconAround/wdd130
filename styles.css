@@ -28,12 +28,15 @@ p {
     padding: 10px;
     text-align: center;
 }
-
+aside {
+    color: darkblue;
+}
 aside h2 {
     text-align: center;
 }
 aside p {
     text-align: center;
+    color: black;
 }
 footer {
     position: fixed;
