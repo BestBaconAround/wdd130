@@ -28,15 +28,7 @@ p {
     padding: 10px;
     text-align: center;
 }
-aside img {
-    width: 200px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    display: block;
-    margin: 0 auto;
-}
+
 aside h2 {
     text-align: center;
 }
