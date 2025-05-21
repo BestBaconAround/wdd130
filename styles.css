@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: bisque;
-    --nav-bg-color: darkblue;
-    --primary-text-color: darkblue;
+    --nav-bg-color: royalblue;
+    --primary-text-color: royalblue;
     --link-color: white;
     --img-width: 150px;
     --img-border: 1px solid black;
@@ -11,6 +11,11 @@
     --main-max-width: 2000px;
     --nav-padding: 10px;
     --link-padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: var(--main-bg-color);
@@ -36,6 +41,7 @@ h1 {
     color: var(--primary-text-color);
     text-align: var(--text-align-center);
 }
+
 
 img,
 aside img {
@@ -70,4 +76,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 10%);
+    padding: 1rem;
+    border-color: royalblue;
 }
