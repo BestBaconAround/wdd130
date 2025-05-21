@@ -36,3 +36,6 @@ header img {
     font-weight: 600;
     color: var(--yellow)
 }
+.nav-links a:hover {
+  color: var(--red);
+}
