@@ -4,6 +4,8 @@
   --yellow: #DACC3E;
   --red: #BC2C1A;
   --wine: #7D1538;
+  --body-font: 'Georgia', serif;
+  --heading-font: 'Roboto', sans-serif;
 }
 * {
     margin: 0;
