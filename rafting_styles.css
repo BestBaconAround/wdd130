@@ -1,10 +1,17 @@
+:root {
+  --teal: #7FB7BE;
+  --mint: #D3F3EE;
+  --yellow: #DACC3E;
+  --red: #BC2C1A;
+  --wine: #7D1538;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header {
-    background-color: #B4CDE4;
+    background-color: var(--wine);
     padding: 20px;
     height: 75px;
 }
@@ -27,4 +34,5 @@ header img {
 .nav-links a {
     text-decoration: none;
     font-weight: 600;
+    color: var(--yellow)
 }
