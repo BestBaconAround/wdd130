@@ -23,6 +23,11 @@ body {
 
 main {
     max-width: var(--main-max-width);
+    display: block;
+    padding-bottom: 50px;
+}
+
+main img {
 }
 
 nav {
@@ -42,6 +47,12 @@ h1 {
     text-align: var(--text-align-center);
 }
 
+aside {
+    position: relative;
+}
+aside h2 {
+    position: absolute;
+}
 
 img,
 aside img {
