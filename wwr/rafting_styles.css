@@ -48,3 +48,9 @@ header img {
 .nav-links a:hover {
     color: var(--red);
 }
+
+.hero {
+    width: 100%;
+    height: auto;
+
+}
