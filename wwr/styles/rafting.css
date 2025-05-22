@@ -65,6 +65,18 @@ article {
     text-align: center;
 }
 
+footer p {
+    position: relative;
+    float: left;
+}
+
+footer img {
+    position: relative;
+    float: right;
+    margin: 5px;
+    right: 185px;
+}
+
 /* Class Selectors */
 .nav-container {
     display: flex;
@@ -108,4 +120,9 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: auto;
 }
