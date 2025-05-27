@@ -1,3 +1,5 @@
+/* CSS for Rafting About Us Page */
+
 :root {
     --primary-color: #7FB7BE;
     --secondary-color: #D3F3EE;
@@ -42,11 +44,8 @@ article {
 
 header {
     background-color: var(--primary-color);
-    padding: 20px;
-    height: 75px;
-}
-
-.nav-container {
+    padding: 5px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,19 +57,18 @@ header {
     margin-top: -10px;
 }
 
-.nav-links {
+.nav-container {
     display: flex;
     gap: 20px;
-    list-style: none;
 }
 
-.nav-links a {
+.nav-container a {
     text-decoration: none;
     font-weight: 600;
     color: var(--accent1-color);
 }
 
-.nav-links a:hover {
+.nav-container a:hover {
     color: var(--accent2-color);
 }
 
