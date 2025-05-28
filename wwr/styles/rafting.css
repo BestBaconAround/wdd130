@@ -105,7 +105,7 @@ header {
 }
 
 .history h2 {
-  font-family: var(--heading-font);
+  font-family: var(--heading-font, sans-serif);
   font-size: 1.6rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -131,7 +131,7 @@ header {
 }
 
 .adventure h2 {
-  font-family: var(--heading-font);
+  font-family: var(--heading-font, sans-serif);
   font-size: 1.6rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -169,19 +169,21 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
-  padding-top: 1rem;
+  padding: 1rem;
   border-top: 2px solid var(--primary-color);
   font-size: 0.9rem;
+  background-color: var(--secondary-color);
 }
 
-footer p {
-  margin-left: 1rem;
+.footer-left p {
+  margin: 0;
 }
 
 footer .socialmedia {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   gap: 10px;
-  margin-right: 1rem;
 }
 
 footer .socialmedia a {
