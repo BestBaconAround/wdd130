@@ -28,9 +28,7 @@ footer {
   margin: 0 auto;
 }
 
-/* =====================
-   HEADER - CSS GRID
-===================== */
+/* HEADER - CSS GRID */
 header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -60,16 +58,14 @@ header {
   color: var(--accent2-color);
 }
 
-/* =====================
-   HERO SECTION
-===================== */
+/* HERO SECTION */
 .hero {
   position: relative;
   width: 100%;
   height: auto;
 }
 
-.hero > img {
+.hero>img {
   width: 100%;
   height: auto;
   display: block;
@@ -93,18 +89,15 @@ header {
   width: 100%;
   padding: 1rem;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .hero article img {
-  float: right;
+  float: center;
   width: 125px;
   margin-left: 10px;
 }
 
-/* =====================
-   HISTORY SECTION
-===================== */
+/* HISTORY SECTION */
 .history {
   margin: 2rem 0;
   text-align: center;
@@ -130,9 +123,7 @@ header {
   height: auto;
 }
 
-/* =====================
-   ADVENTURE SECTION
-===================== */
+/* ADVENTURE SECTION */
 .adventure {
   margin: 2rem 0;
   text-align: center;
@@ -171,9 +162,7 @@ header {
   color: #333;
 }
 
-/* =====================
-   FOOTER
-===================== */
+/* FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
