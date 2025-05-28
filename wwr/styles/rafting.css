@@ -92,7 +92,7 @@ header {
 }
 
 .hero article img {
-  float: center;
+  float: right;
   width: 125px;
   margin-left: 10px;
   background-color: transparent;
