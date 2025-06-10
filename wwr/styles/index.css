@@ -52,3 +52,43 @@ header {
 .nav-links a:hover {
     color: var(--accent2-color);
 }
+
+/*footer*/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 2px solid var(--primary-color);
+  font-size: 0.9rem;
+  background-color: var(--secondary-color);
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-left p {
+  margin: 0;
+  text-align: left;
+}
+
+footer .socialmedia {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+footer .socialmedia a {
+  text-decoration: none;
+}
+
+footer .socialmedia img {
+  width: 25px;
+  height: auto;
+}
