@@ -2,15 +2,21 @@
   --primary-color: #7FB7BE;
   --secondary-color: #D3F3EE;
   --accent1-color: #DACC3E;
-  --accent2-color: #BC2C1A;
-  --extra-color: #7D1538;
+  --accent2-color: #52868d;
+  --extra-color: #D3F3EE;
   --heading-font: 'Roboto', sans-serif;
   --body-font: 'Open Sans', sans-serif;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+}
+
+html {
   box-sizing: border-box;
 }
 
@@ -59,7 +65,6 @@ header {
   display: grid;
   place-items: center;
   position: relative;
-  height: auto;
   overflow: hidden;
 }
 
@@ -69,13 +74,39 @@ header {
   display: block;
 }
 
-.hero-trip p {
+.hero-text {
   position: absolute;
-  top: 40px;
+  top: px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.hero-text p {
   color: var(--accent1-color);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.hero-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--accent1-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background-color: var(--accent2-color);
 }
 
 /* Activities Section */
