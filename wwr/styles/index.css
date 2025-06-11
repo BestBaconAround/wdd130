@@ -109,6 +109,19 @@ header {
   background-color: var(--accent2-color);
 }
 
+/* Hero Message */
+.hero-message {
+  text-align: center;
+  padding: 55px
+}
+
+.hero-message h1,
+p,
+h5 {
+  padding: 15px;
+  font-size: 28px;
+}
+
 /* Activities Section */
 .activities {
   display: grid;
