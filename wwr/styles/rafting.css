@@ -1,15 +1,14 @@
 :root {
-  --primary-color: #1E3A5F;      /* Deep Adventure Blue - Header, Nav, CTA Backgrounds */
-  --secondary-color: #E3F2F9;    /* Light Sky Background - Page background or sections */
-  --accent1-color: #F9A826;      /* Golden Orange - Buttons, Highlights, Links */
-  --accent2-color: #D7263D;      /* Deep Red - Alerts, Hover States, Action Attention */
-  --neutral-light: #FFFFFF;      /* White - Text on dark backgrounds */
-  --neutral-dark: #212121;       /* Almost-black - Text on light backgrounds */
-  --gray-background: #F7F9FC;    /* Off-white soft section background */
+  --primary-color: #1E3A5F;
+  --secondary-color: #E3F2F9;
+  --accent1-color: #F9A826;
+  --accent2-color: #D7263D;
+  --neutral-light: #FFFFFF;
+  --neutral-dark: #212121;
+  --gray-background: #F7F9FC;
   --heading-font: 'Roboto', sans-serif;
   --body-font: 'Open Sans', sans-serif;
 }
-
 
 * {
   margin: 0;
@@ -18,12 +17,11 @@
 }
 
 body {
-  font-family: var(--body-font, sans-serif);
+  font-family: var(--body-font);
   color: var(--accent1-color);
   background-color: var(--secondary-color);
 }
 
-/* Page structure */
 header,
 main,
 footer {
@@ -31,7 +29,6 @@ footer {
   margin: 0 auto;
 }
 
-/* HEADER - CSS GRID */
 header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -61,14 +58,13 @@ header {
   color: var(--accent2-color);
 }
 
-/* HERO SECTION */
 .hero {
   position: relative;
   width: 100%;
   height: auto;
 }
 
-.hero>img {
+.hero > img {
   width: 100%;
   height: auto;
   display: block;
@@ -80,9 +76,8 @@ header {
   width: 100%;
   padding: 16px;
   text-align: center;
-  background-color: var(--accent1-color);
   opacity: 0.85;
-  color: #fff;
+  color: var(--accent1-color);
   font-size: 2rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
@@ -103,14 +98,13 @@ header {
   background-color: transparent;
 }
 
-/* HISTORY SECTION */
 .history {
   margin: 2rem 0;
   text-align: center;
 }
 
 .history h2 {
-  font-family: var(--heading-font, sans-serif);
+  font-family: var(--heading-font);
   font-size: 1.6rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -129,14 +123,13 @@ header {
   height: auto;
 }
 
-/* ADVENTURE SECTION */
 .adventure {
   margin: 2rem 0;
   text-align: center;
 }
 
 .adventure h2 {
-  font-family: var(--heading-font, sans-serif);
+  font-family: var(--heading-font);
   font-size: 1.6rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -168,7 +161,6 @@ header {
   color: #333;
 }
 
-/* FOOTER */
 footer {
   display: flex;
   flex-wrap: wrap;

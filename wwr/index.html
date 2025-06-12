@@ -4,72 +4,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Home page for White Water Rafting adventures and trip planning." />
   <link rel="stylesheet" href="styles/index.css" />
   <title>Home | White Water Rafting</title>
 </head>
 
 <body>
-  <header>
+  <header class="site-header">
     <div class="nav-container">
-      <img src="images/logo.jpg" alt="Logo" class="logo" />
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
+      <img src="images/logo.jpg" alt="White Water Rafting Logo" class="nav-logo" />
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="trips.html" class="nav-link">Trips</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
     </div>
   </header>
 
-  <div class="hero-trip">
-    <img src="images/hero-trip.jpg" alt="Rafting Hero Image" />
+  <section class="hero">
+    <img src="images/hero-trip.jpg" alt="Rafting Adventure" class="hero-image" />
+    <div class="hero-content">
+      <p class="hero-title">Welcome to White Water Rafting!</p>
+      <a href="trips.html" class="btn btn--primary">Book an Adventure!</a>
+    </div>
+  </section>
 
-    <div class="hero-text">
-      <p>Welcome to White Water Rafting!</p>
-      <a href="trips.html" class="hero-button">Book an Adventure!</a>
-    </div>
-  </div>
+  <section class="intro">
+    <h1 class="intro-heading">High-Quality, Affordable Whitewater Adventures</h1>
+    <p class="intro-text">
+      WWR provides experiences that are fun, safe, and environmentally mindful. With a fleet of rafts, kayaks, and support vehicles,
+      we can accommodate over 300 people a day. Our guides are highly trained and friendly, and our safety record is excellent.
+    </p>
+    <h5 class="intro-subheading">Join us for an unforgettable adventure!</h5>
+  </section>
 
-  <div class="hero-message">
-    <h1>High-quality, affordable whitewater adventures</h1>
-    <p>SRE provides experiences that are both fun and adventurous while at the same time sensitive to the cultural and
-      environmental needs of the river. We are able to accommodate over 300 people a day with a fleet of self bailing
-      rafts, kayaks, and support vehicles. Our guides are highly-trained, friendly, and knowledgeable and our safety
-      record is excellent. </p>
-    <h5>Join us for an adventure!</h5>
-  </div>
-  <div class="activities">
-    <div class="activity-item">
-      <img src="images/rivers.jpg" alt="about us" />
-      <p>About Us</p>
+  <section class="activities">
+    <div class="activity">
+      <img src="images/rivers.jpg" alt="About Us" class="activity-image" />
+      <p class="activity-label">About Us</p>
     </div>
-    <div class="activity-item">
-      <img src="images/camping.jpg" alt="trips" />
-      <p>Trips</p>
+    <div class="activity">
+      <img src="images/camping.jpg" alt="Trips" class="activity-image" />
+      <p class="activity-label">Trips</p>
     </div>
-    <div class="activity-item">
-      <img src="images/rapids.jpg" alt="contact us" />
-      <p>Contact Us</p>
+    <div class="activity">
+      <img src="images/rapids.jpg" alt="Contact Us" class="activity-image" />
+      <p class="activity-label">Contact Us</p>
     </div>
-  </div>
+  </section>
+
   <section class="newsletter">
-    <h2>Subscribe to our newsletter</h2>
-    <form>
-      <input type="text" name="name" placeholder="Your name" required>
-      <input type="email" name="email" placeholder="Your email" required>
-      <button type="submit">Sign Up</button>
+    <h2 class="newsletter-heading">Subscribe to Our Newsletter</h2>
+    <form class="newsletter-form">
+      <input type="text" name="name" placeholder="Your name" required class="newsletter-input" />
+      <input type="email" name="email" placeholder="Your email" required class="newsletter-input" />
+      <button type="submit" class="btn btn--secondary">Sign Up</button>
     </form>
   </section>
 
-  <footer>
-    <div class="footer-left">
-      <p>&copy; 2025 | White Water Rafting | Cameron Andrews</p>
+  <footer class="site-footer">
+    <p class="footer-text">&copy; 2025 | White Water Rafting | Cameron Andrews</p>
+    <div class="footer-social">
+      <a href="#"><img src="images/facebook_icon.png" alt="Facebook" class="social-icon" /></a>
+      <a href="#"><img src="images/instagram_icon.png" alt="Instagram" class="social-icon" /></a>
+      <a href="#"><img src="images/tiktok_icon.png" alt="TikTok" class="social-icon" /></a>
     </div>
-    <nav class="socialmedia">
-      <a href="#"><img src="images/facebook_icon.png" alt="Facebook" /></a>
-      <a href="#"><img src="images/instagram_icon.png" alt="Instagram" /></a>
-      <a href="#"><img src="images/tiktok_icon.png" alt="TikTok" /></a>
-    </nav>
   </footer>
 </body>
 
