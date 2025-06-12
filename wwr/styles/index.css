@@ -1,12 +1,15 @@
 :root {
-  --primary-color: #7FB7BE;
-  --secondary-color: #D3F3EE;
-  --accent1-color: #DACC3E;
-  --accent2-color: #52868d;
-  --extra-color: #D3F3EE;
+  --primary-color: #1E3A5F;      /* Deep Adventure Blue - Header, Nav, CTA Backgrounds */
+  --secondary-color: #E3F2F9;    /* Light Sky Background - Page background or sections */
+  --accent1-color: #F9A826;      /* Golden Orange - Buttons, Highlights, Links */
+  --accent2-color: #D7263D;      /* Deep Red - Alerts, Hover States, Action Attention */
+  --neutral-light: #FFFFFF;      /* White - Text on dark backgrounds */
+  --neutral-dark: #212121;       /* Almost-black - Text on light backgrounds */
+  --gray-background: #F7F9FC;    /* Off-white soft section background */
   --heading-font: 'Roboto', sans-serif;
   --body-font: 'Open Sans', sans-serif;
 }
+
 
 *,
 *::before,
